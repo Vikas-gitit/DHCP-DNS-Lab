@@ -6,7 +6,7 @@ Implement a centralized **DHCP and DNS service** across two networks using Cisco
 
 ## 🖥️ Topology
 
-![Topology](Screenshots/01_Topology.png)
+![Topology](https://github.com/Vikas-gitit/DHCP-DNS-Lab/blob/master/Screenshot/01_Topology.png)
 
 * **LAN 1 (192.168.1.0/24)** → PC1, PC2, DHCP/DNS Server
 * **LAN 2 (192.168.2.0/24)** → PC3, PC4
