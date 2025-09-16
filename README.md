@@ -6,9 +6,12 @@ Implement a centralized **DHCP and DNS service** across two networks using Cisco
 
 Why these services?
 
-DHCP automates IP address assignment, reducing manual effort and avoiding configuration errors.
-DNS translates hostnames into IP addresses, making communication simpler for users and applications.
-OSPF (Open Shortest Path First) is a dynamic routing protocol that provides fast convergence and scalability, making it suitable for multi-LAN topologies.
+* DHCP automates IP address assignment, reducing manual effort and avoiding configuration errors.
+* DNS translates hostnames into IP addresses, making communication simpler for users and applications.
+* OSPF (Open Shortest Path First) is a dynamic routing protocol that provides fast convergence and scalability, making it suitable for multi-LAN topologies.
+
+* This lab simulates a real-world enterprise setup where core services like DHCP and DNS are centralized, while remote networks rely on routing and relay to access them.
+
 
 ## 🖥️ Topology
 
