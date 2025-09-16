@@ -4,6 +4,12 @@
 
 Implement a centralized **DHCP and DNS service** across two networks using Cisco Packet Tracer. The DHCP server is located in one LAN (192.168.1.0/24), while devices in the remote LAN (192.168.2.0/24) receive IP addresses via **DHCP relay (helper address)** on Router 2. Routing between LANs is handled with OSPF.
 
+Why these services?
+
+DHCP automates IP address assignment, reducing manual effort and avoiding configuration errors.
+DNS translates hostnames into IP addresses, making communication simpler for users and applications.
+OSPF (Open Shortest Path First) is a dynamic routing protocol that provides fast convergence and scalability, making it suitable for multi-LAN topologies.
+
 ## 🖥️ Topology
 
 ![Topology](https://github.com/Vikas-gitit/DHCP-DNS-Lab/blob/master/Screenshot/01_Topology.png)
