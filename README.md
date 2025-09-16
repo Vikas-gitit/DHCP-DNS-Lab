@@ -10,7 +10,9 @@ Why these services?
 * DNS translates hostnames into IP addresses, making communication simpler for users and applications.
 * OSPF (Open Shortest Path First) is a dynamic routing protocol that provides fast convergence and scalability, making it suitable for multi-LAN topologies.
 
-* This lab simulates a real-world enterprise setup where core services like DHCP and DNS are centralized, while remote networks rely on routing and relay to access them.
+This lab simulates a real-world enterprise setup where core services like DHCP and DNS are centralized, while remote networks rely on routing and relay to access them.
+
+
 
 
 ## 🖥️ Topology
@@ -80,6 +82,13 @@ DHCP-DNS/
 * PCs in both networks successfully obtained IP addresses from the centralized DHCP server.
 * End-to-end connectivity verified with ICMP pings.
 * DNS resolution tested within the LAN.
+
+📌 Key Learning Outcomes
+
+* Understood how DHCP relay extends IP allocation across multiple networks.
+* Observed how DNS resolution simplifies communication between hosts.
+* Practiced OSPF configuration for inter-LAN routing.
+* Gained insights into how centralized services support enterprise networking.
 
 ---
 
